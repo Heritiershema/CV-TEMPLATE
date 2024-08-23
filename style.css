@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: rgb(53, 44, 50);
+    font-size: 50px;
+    padding: 20px;
+    
+    
+}
+h4{
+    color: rgb(7, 79, 124);
+    padding-top: 40px;
+}
+h3{
+    color: rgb(1, 5, 14)
+    
+}
+
+h5{
+    color: dodgerblue;
+    padding-top: 70px;
+}
+h6{
+    color: black;
+    padding-top: 40px;
+
+}
+
+img{
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+   
+}
+.contain{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+   
+  
+ }
+.nn{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+
+}
+.fa-linkedin-in{
+    background-color: blue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   .c{
+    display: flex;
+    gap: 5px;
+   }
+   @media only screen and (max-width:450px) {
+    .contain{
+        width: 100%;
+        height: 100vh ;
+        background-color: gray;
+    }
+
+    img{
+        width: 125px;
+        height: 125px;
+    }  
+    .nn{
+        display: flex;
+        flex-direction: column-reverse;
+    } 
+    h1{
+        font-size: 30px;
+    }
+}
+   
+
+
+
+
+   
